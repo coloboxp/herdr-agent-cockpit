@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 - 2026-11-12
 
 - Browse saved conversations by machine and project or harness.
 - Read Codex, Claude Code and Cline history on local and configured remote machines.

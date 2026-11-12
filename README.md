@@ -26,9 +26,11 @@ The tested platforms are macOS and Linux ARM64. Windows support has not been ver
 
 ## Install
 
-Download or clone this repository, open its directory in a terminal, and run:
+Clone the repository and run the installer from its directory:
 
 ```sh
+git clone https://github.com/coloboxp/herdr-project-history.git
+cd herdr-project-history
 herdr-app status
 python3 -B install.py
 ```
@@ -193,7 +195,7 @@ Once no layout references the mod, you can remove its app-home `mods/project-his
 
 ## Release process
 
-Versions follow `major.minor.patch`. `package.json` and the installed mod's `VERSION` file carry the same version. CI checks that they match, checks JavaScript syntax, and runs the model, collector and installer tests on each push and pull request. Native Herdr checks and live resume checks run separately on a machine with Herdr installed.
+Versions follow `major.minor.patch`. `package.json` and the installed mod's `VERSION` file carry the same version. CI checks that they match, checks JavaScript syntax, and runs the model, collector and installer tests on pushes to `main` and on pull requests. Native Herdr checks and live resume checks run separately on a machine with Herdr installed.
 
 For a release, update both version files and the changelog, run the checks above, and verify the loaded panel. Review the staged file list and synthetic previews before committing. Create a `v<version>` Git tag and GitHub release when publishing that version.
 
