@@ -1,6 +1,6 @@
-# Herdr Project History
+# Herdr Agent Cockpit
 
-Browse coding-agent projects and saved conversations from a native Herdr sidebar. Open a conversation in its original folder and machine, or return to its existing terminal.
+A cockpit for your coding agents, active work and saved conversations across local and remote machines. Find a project, return to an open terminal, or resume a saved conversation in its original folder. Manage it from the panel or through your coding-agent TUI.
 
 Choose either view:
 
@@ -9,9 +9,11 @@ Choose either view:
 
 The panel reads Codex, Claude Code and Cline history where those tools are available. It also shows local Claude Desktop Code metadata that can be matched to CLI sessions. Herdr's separate Agents panel keeps track of running work.
 
-![Herdr Project History with sample data](preview.png)
+![Herdr Agent Cockpit: live agents and saved work, local and remote](preview.png)
 
-Version: **0.1.0**. See [CHANGELOG.md](CHANGELOG.md) for release notes.
+The cover illustrates the browsing model with synthetic data. [View the native panel screenshot](preview-dark.png).
+
+Version: **0.1.1**. See [CHANGELOG.md](CHANGELOG.md) for release notes.
 
 ## Prerequisites
 
@@ -29,8 +31,8 @@ The tested platforms are macOS and Linux ARM64. Windows support has not been ver
 Clone the repository and run the installer from its directory:
 
 ```sh
-git clone https://github.com/coloboxp/herdr-project-history.git
-cd herdr-project-history
+git clone https://github.com/coloboxp/herdr-agent-cockpit.git
+cd herdr-agent-cockpit
 herdr-app status
 python3 -B install.py
 ```

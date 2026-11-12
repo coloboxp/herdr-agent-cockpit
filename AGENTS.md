@@ -1,4 +1,4 @@
-# Working on Herdr Project History
+# Working on Herdr Agent Cockpit
 
 Read README.md and RECIPE.md before changing behavior. This is a public-source repository: keep actual project maps, session metadata, hostnames, personal paths, account IDs, credentials, private screenshots and test logs outside it. Use synthetic fixtures only. Never copy a whole Herdr app home into this repository.
 

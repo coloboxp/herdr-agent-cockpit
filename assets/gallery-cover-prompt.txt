@@ -1,0 +1,30 @@
+Use case: ads-marketing.
+Create a polished launch cover for a real developer tool, "Herdr Agent Cockpit", intended for a gallery card. Landscape 8:5, ideally 1536 x 960. It must communicate clearly when reduced to about 390 x 244 pixels.
+
+Reference image role: visual reference for the real native sidebar and supported functionality only. The reference is too zoomed out; do not reproduce its vast empty window. All project and conversation content is synthetic.
+
+Art direction: premium, restrained developer software editorial design. Deep charcoal background, warm off-white typography, a restrained mint accent, warm amber for Claude labels, soft periwinkle for Codex, muted blue for Cline. Crisp typography, high contrast, careful spacing, subtle panel depth, precise hairline borders. No decorative scenery, no airplane cockpit, no robots, no mascots, no neon fog, no floating 3D objects, no emoji, no fake vendor logos.
+
+Composition: a bold compact typographic block on the left, a large close-up illustrated native sidebar on the right. The interface must occupy about half the image and use large simplified readable rows. It may extend to near the right edge but keep all text safely inside. Fill the frame with purposeful content rather than empty desktop space.
+
+Exact principal copy, verbatim:
+Small top label: "FOR HERDR"
+Very large title on two lines: "Agent" / "Cockpit"
+Supporting copy: "Live agents. Saved work." / "Local and remote."
+Small lower-left line: "Stay in your terminal."
+A clear bottom band: "Codex · Claude Code · Cline"
+
+The right sidebar should faithfully illustrate the actual browsing hierarchy Machine > Project > Conversations:
+heading "Projects"
+machine "This computer"
+expanded project "Atlas"
+conversation "Review access" with "Codex" and a small mint "Open" label
+indented fork "Migration alternative" with "Codex" and a branch glyph
+conversation "Setup guide" with "Claude Code" and "Saved"
+machine "Build server" with a simple server line icon
+expanded project "Observatory"
+conversation "Compare results" with "Cline" and "Saved".
+Use simple folder, chat and branch line icons, as in the reference. A subtle selected-row highlight may draw attention to the open conversation. Clearly distinguish Open from Saved without inventing live task statuses.
+Tiny disclosure at the bottom-right: "Illustrative preview · synthetic data".
+
+Make "Agent Cockpit", "Local and remote", and the three provider names readable at gallery thumbnail scale. The result should sell one clear idea: a cockpit to return to both active and saved coding-agent work across machines, from the terminal workspace. No additional slogans or claims.

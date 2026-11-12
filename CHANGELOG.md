@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 - 2026-11-12
+
+- Name the product Herdr Agent Cockpit.
+- Replace the gallery cover with a readable view of active and saved work across machines.
+- Keep the native panel screenshot available alongside the promotional illustration.
+
 ## 0.1.0 - 2026-11-12
 
 - Browse saved conversations by machine and project or harness.

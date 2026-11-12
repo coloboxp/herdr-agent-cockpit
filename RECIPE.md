@@ -1,8 +1,10 @@
-# Herdr Project History
+# Herdr Agent Cockpit
 
-A native sidebar showing connected machines, their projects and saved agent conversations. It follows Herdr's current theme and opens a conversation in its original agent, directory and machine.
+A cockpit for coding-agent work across local and remote machines. Browse projects and saved conversations, return to open terminals, and resume work in its original agent and folder. Herdr's Agents panel keeps running work visible alongside the history panel.
 
-![Herdr Project History](preview.png)
+![Herdr Agent Cockpit](preview.png)
+
+`preview.png` is a promotional illustration with synthetic data. `preview-dark.png` is a native panel capture. The current cover brief is in `assets/gallery-cover-prompt.txt`.
 
 ## What you see
 

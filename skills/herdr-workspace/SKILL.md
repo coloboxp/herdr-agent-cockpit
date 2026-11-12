@@ -1,6 +1,6 @@
 ---
 name: herdr-workspace
-description: Browse and resume coding-agent conversations through Herdr Project History, configure its machines and providers, and maintain or roll back the mod.
+description: Browse and resume coding-agent conversations through Herdr Agent Cockpit, configure its machines and providers, and maintain or roll back the mod.
 ---
 
 # Herdr workspace

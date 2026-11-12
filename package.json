@@ -1,12 +1,12 @@
 {
-  "name": "herdr-project-history",
-  "version": "0.1.0",
+  "name": "herdr-agent-cockpit",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.mjs"
   },
-  "description": "A Herdr sidebar for coding-agent projects and saved conversations",
+  "description": "A cockpit for coding agents, active work and saved conversations across local and remote machines",
   "license": "MIT",
   "engines": {
     "node": ">=20"

@@ -1,6 +1,6 @@
 # Validation
 
-Validated on 2026-11-12 with Herdr app 0.1.15, core 0.1.20, macOS and a connected Linux ARM64 host. All fixtures and release previews are synthetic. Private runtime histories and screenshots are excluded from the repository.
+Validated on 2026-11-12 with Herdr app 0.1.15, core 0.1.20, macOS and a connected Linux ARM64 host. All fixtures and preview content are synthetic. The gallery cover is an illustration; `preview-dark.png` is a native capture. Private runtime histories and screenshots are excluded from the repository.
 
 ## Automated checks
 
@@ -38,9 +38,9 @@ Codex and Claude Desktop metadata formats remain internal interfaces. Fork ances
 
 ## Release preparation
 
-The source, examples, fixtures and preview images are reviewed separately from the installed user configuration. The public folder excludes private project mappings, account IDs, machine addresses, credentials, real transcripts, real screenshots and runtime logs. Herdr-generated type/config files are ignored by Git. The final light/dark images were captured only after guarding that the active preview layout contained synthetic demo/detail blocks; the temporary preview layout was then removed.
+The source, examples, fixtures and preview images are reviewed separately from the installed user configuration. The public folder excludes private project mappings, account IDs, machine addresses, credentials, real transcripts, real screenshots and runtime logs. Herdr-generated type/config files are ignored by Git. The native screenshot was captured only after guarding that the active preview layout contained synthetic demo/detail blocks; the temporary preview layout was then removed. Version 0.1.1 replaces the gallery cover with a generated promotional illustration and retains the native dark screenshot.
 
-`RECIPE.md`, the install/update/restore helper, rollback instructions, a usage/maintenance skill, optional dependency pin and MIT license are included. The first version is 0.1.0. CI is configured to check version agreement, JavaScript syntax and automated tests. The public repository is [coloboxp/herdr-project-history](https://github.com/coloboxp/herdr-project-history), with the `herdr-mod` topic for catalog discovery. The [first hosted CI run](https://github.com/coloboxp/herdr-project-history/actions/runs/43230784364) passed on Ubuntu with Node.js 22 and Python 3.11. CI runs on pushes to `main` and on pull requests; native Herdr checks remain a separate release gate.
+`RECIPE.md`, the install/update/restore helper, rollback instructions, a usage/maintenance skill, optional dependency pin and MIT license are included. The first version is 0.1.0. CI is configured to check version agreement, JavaScript syntax and automated tests. The public repository is [coloboxp/herdr-agent-cockpit](https://github.com/coloboxp/herdr-agent-cockpit), with the `herdr-mod` topic for catalog discovery. The [first hosted CI run](https://github.com/coloboxp/herdr-agent-cockpit/actions/runs/43230784364) passed on Ubuntu with Node.js 22 and Python 3.11. CI runs on pushes to `main` and on pull requests; native Herdr checks remain a separate release gate.
 
 ## Retained resources
 
