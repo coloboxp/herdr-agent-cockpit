@@ -1,0 +1,7 @@
+{
+  "providers": [
+    {"id":"codex","label":"Codex","match":["codex"],"reader":"codex","run":["codex"],"resume":["resume","{id}"],"rootsFlag":"--add-dir"},
+    {"id":"claude","label":"Claude Code","match":["claude-code","claude"],"reader":"claude","run":["claude"],"resume":["--resume","{id}"],"rootsFlag":"--add-dir"},
+    {"id":"cline","label":"Cline","match":["cline"],"reader":"cline","run":["cline"],"history":["cline","history","--json","--limit","{limit}"],"resume":["--tui","--id","{id}"]}
+  ]
+}

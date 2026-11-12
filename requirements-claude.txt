@@ -1,0 +1,2 @@
+# Optional: read-only Claude session listing; no API key or model call is needed.
+claude-agent-sdk==0.2.110

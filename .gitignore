@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.error
+*.local.json
+private/
+node_modules/
+mods/project-history/*.d.ts
+mods/project-history/jsconfig.json
+
+.env
+.env.*

@@ -1,0 +1,9 @@
+{
+  "groupBy": "project",
+  "providers": [
+    {"id":"example","label":"Example Agent","match":["example-agent"],"reader":"command","run":["example-agent"],"history":["example-agent","sessions","--json"],"resume":["resume","{id}"]}
+  ],
+  "machines": {
+    "example-server": {"python":"/path/to/venv/bin/python"}
+  }
+}
